@@ -209,6 +209,5 @@ docker run -p 80:80 company-website-frontend:latest
 
 ---
 
-**开发团队**: Claw Technology Team  
 **项目状态**: 生产就绪  
 **最后更新**: 2026年4月13日
