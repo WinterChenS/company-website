@@ -1,0 +1,28 @@
+.page {
+  padding: 0;
+}
+
+/* Ant Design Select 组件在工具栏里的宽度控制，样式由 antd 接管 */
+.filterSelect {
+  min-width: 140px;
+}
+
+.readonlyInfo {
+  display: flex;
+  gap: 24px;
+  padding: 12px 16px;
+  background: rgba(99, 102, 241, 0.06);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.readonlyInfo code {
+  color: #a5b4fc;
+  background: rgba(99, 102, 241, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}

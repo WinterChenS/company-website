@@ -1,0 +1,68 @@
+.page {
+  padding: 8px;
+}
+
+.pageTitle {
+  margin-bottom: 8px !important;
+}
+
+.pageDesc {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.themeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.themeCard {
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.themeCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.themeCard.active {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+.activeTag {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 1;
+}
+
+.preview {
+  height: 80px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.previewBar {
+  height: 100%;
+  width: 60%;
+  opacity: 0.8;
+}
+
+.info {
+  margin-bottom: 12px;
+}
+
+.info h5 {
+  margin-bottom: 4px !important;
+}
+
+.switchBtn {
+  margin-top: 4px;
+}
